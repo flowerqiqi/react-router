@@ -1,0 +1,26 @@
+.item,.item_list li{
+	width: 33.3%;
+	padding:0.5rem;
+	box-sizing: border-box;
+}
+.item,.item_list li,.inner{
+	background: #FFFFFF;
+	width: 100%;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.item,.item_list li,.inner img{
+	width: 100%;
+}
+
+.item,.item_list li,.inner p{
+	padding: 0.2rem 0.5rem;
+}
+
+item,.item_list li,.inner .title{
+	font-weight: bold;
+}
+.price{
+	color: red;
+}

@@ -1,0 +1,24 @@
+.teacher{
+    position: relative;
+    background: url('../img/bg.jpg')  center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+    padding:160px 0;
+}
+.teacher h1,.teacher h3{
+    color: #fff;
+}
+.container-box{
+    position: relative;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    margin: 20px 0;
+}
+.card h2{
+    color: #fff;
+}

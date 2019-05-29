@@ -1,0 +1,19 @@
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+#menubar{
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  z-index: 9; 
+  width: 100%;
+  height:100%;
+  text-align:center;
+  top:64px;
+  display: none;
+}
