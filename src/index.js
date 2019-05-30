@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 //import TodoList from './TodoList.js';
 //import {Provider} from 'react-redux';
 //import store from './store';
-import App from './menu/App';
+import App from './user/App';
 	
 
 ReactDOM.render(<App />, document.getElementById('root'));

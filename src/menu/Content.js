@@ -17,7 +17,8 @@ export default class Content extends React.Component{
 			
 			<div className="inner">
 									<div className="back"><Link to='/'>返回</Link></div>
-			 						<img src={`${this.state.domain}${this.state.list.img_url}`} />
+									{this.state.list.img_url?<img src={`${this.state.domain}${this.state.list.img_url}`} />:''}
+			 						
 			 						<div dangerouslySetInnerHTML={{__html:this.state.list.content}}></div>
 			 						<p className="price">{this.state.list.price}元</p>
 			 						</div>
@@ -41,9 +42,7 @@ export default class Content extends React.Component{
 		})
 	}
 	componentDidMount(){
-		//console.log(url.parse(this.props.location.search,true));
 		let id=url.parse(this.props.location.search,true).query.id;
 		this.dataFrom(id);
-		
 	}
 }
